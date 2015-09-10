@@ -1,6 +1,6 @@
-name:          Code Guide by @mdo
+name:          PatternFly Code Guide
 description:   Standards for developing flexible, durable, and sustainable HTML and CSS.
-url:           http://codeguide.co
+url:           http://codeguide.patternfly.org
 
 markdown:      rdiscount
 permalink:     pretty

@@ -1,9 +1,9 @@
 /* Bad example */
-.t { ... }
-.red { ... }
 .header { ... }
+.red { ... }
+.t { ... }
 
 /* Good example */
-.tweet { ... }
 .important { ... }
+.tweet { ... }
 .tweet-header { ... }

@@ -1,9 +1,9 @@
 /* Bad example */
-span { ... }
-.page-container #stream .stream-item .tweet .tweet-header .username { ... }
 .avatar { ... }
+.page-container #stream .stream-item .tweet .tweet-header .username { ... }
+span { ... }
 
 /* Good example */
 .avatar { ... }
-.tweet-header .username { ... }
 .tweet .avatar { ... }
+.tweet-header .username { ... }
