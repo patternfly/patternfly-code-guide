@@ -8,4 +8,4 @@ Forked from https://github.com/mdo/code-guide, PatternFly Code Guide documents s
 
 ### License
 
-Released under MIT by, and copyright 2014, @mdo.
+Released under MIT by, and copyright 2015, @mdo.
