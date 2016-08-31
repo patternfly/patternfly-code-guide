@@ -47,7 +47,7 @@ layout: default
 <div class="section" id="golden-rule">
   <div class="col">
     <h2>Golden rule</h2>
-    <p>Enforce these, or your own, agreed upon guidelines at all times. Small or large, call out what's incorrect. For additions or contributions to this Code Guide, please <a href="https://github.com/mdo/code-guide/issues/new">open an issue on GitHub</a>.</p>
+    <p>Enforce these, or your own, agreed upon guidelines at all times. Small or large, call out what's incorrect. For additions or contributions to this Code Guide, please <a href="https://github.com/patternfly/patternfly-code-guide/issues/new">open an issue on GitHub</a>.</p>
   </div>
   <div class="col">
     <blockquote>
@@ -273,8 +273,8 @@ layout: default
 <div class="section" id="css-prefixed-properties">
   <div class="col">
     <h3>Prefixed properties</h3>
-    <p>When using vendor prefixed properties, indent each property such that the declaration's value lines up vertically for easy multi-line editing.</p>
-    <p>In Textmate, use <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A). In Sublime Text 2, use <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) and <strong>Selection &rarr;  Add Next Line</strong> (&#8963;&#8679;&darr;).</p>
+    <p>PatternFly uses <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> to deal with CSS <a href="https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix">vendor prefixes</a>.</p>
+    <p>Do not add vender prefixes to your code, Autoprefixer will do it for you on build.</p>
   </div>
   <div class="col">
     {% highlight css %}{% include css/prefixed-properties.css %}{% endhighlight %}
